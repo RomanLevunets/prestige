@@ -158,7 +158,12 @@ body {
     .amenu-item-meth {
       text-decoration: none;
       color: #fff;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-transition: color .3s ease;
+      -o-transition: color .3s ease;
+      transition: color .3s ease; }
+      .amenu-item-meth:hover {
+        color: #979797; }
 
 .content {
   float: right;

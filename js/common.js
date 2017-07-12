@@ -10,8 +10,7 @@ $(document).ready(function() {
     }item();
 
 
-
-
+        //accordion for location
         if(document.documentElement.clientWidth < 1080) {
             $('.location-content').hide();
 
@@ -29,7 +28,7 @@ $(document).ready(function() {
             });
 
         }
-
+    //burger animation
     $('.burger').click(function(){
         $('.burger__line').toggleClass('active-b');
         $('.sidebar').toggleClass('open');
@@ -37,5 +36,14 @@ $(document).ready(function() {
 
     });
 
+    //anchours
+    $('.navigation-range').click(function() {
+        var elementClick = $(this).attr("href");
+        var destination = $(elementClick).offset().top;
+        jQuery("html:not(:animated),body:not(:animated)").animate({
+            scrollTop: destination
+        }, 1300);
+        return false;
+    });
 });
 
