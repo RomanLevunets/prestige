@@ -505,7 +505,8 @@ body {
   background: #fff; }
   .item-company-txt {
     font: 100% "OpenSans", sans-serif;
-    margin-top: 25px; }
+    margin-top: 25px;
+    line-height: 2; }
 
 .catalog {
   padding-bottom: 30px;
@@ -681,8 +682,9 @@ body {
     font-size: 12px;
     top: 30px; }
   .title-news-txt p {
-    font-size: 18px;
-    margin-top: 10px; }
+    font-size: 12px; }
+  .item-company-txt {
+    line-height: 1.6; }
   .title-news-txt span {
     font-size: 12px;
     margin-top: 5px; }
