@@ -80,7 +80,12 @@ body {
       color: #fff;
       font-size: 26px;
       position: relative;
-      line-height: 1; }
+      line-height: 1;
+      -webkit-transition: color .3s ease;
+      -o-transition: color .3s ease;
+      transition: color .3s ease; }
+      .sidebar-content-tell:hover {
+        color: #979797; }
       .sidebar-content-tell::after {
         content: " ";
         position: absolute;
