@@ -33,6 +33,7 @@ $(document).ready(function() {
     $('.burger').click(function(){
         $('.burger__line').toggleClass('active-b');
         $('.sidebar').toggleClass('open');
+        $('.wrapper').toggleClass('bg-active');
 
     });
 
