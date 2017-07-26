@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
         //accordion for location
-        if(document.documentElement.clientWidth < 1080) {
+        if(document.documentElement.clientWidth < 1700) {
             $('.location-content').hide();
 
             $('.location-adress-br').click(function(){
@@ -45,5 +45,6 @@ $(document).ready(function() {
         }, 1300);
         return false;
     });
+
 });
 
